@@ -114,7 +114,7 @@ def lambda_handler(event, context):
 - Deploy the API (or enable automatic deployment) → Name the stage (e.g., prod or POST or anything)
 - Stages -> Copy the Invoke URL (eg: `https://lloiwt9vl2.execute-api.us-east-1.amazonaws.com/POST/provision-ec2`)
 
-### STEP 7: Test with Postman
+### Step 7: Test with Postman
 - Open Postman -> method - POST
 - URL -> `https://lloiwt9vl2.execute-api.us-east-1.amazonaws.com/POST/provision-ec2`
 - Body -> Raw -> JSON -> enter `{}`
